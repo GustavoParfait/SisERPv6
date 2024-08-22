@@ -1,4 +1,4 @@
-namespace SisERPv6.Models
+namespace SisERPv6.Models.ViewModels
 {
     public class ErrorViewModel
     {

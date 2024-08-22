@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SisERPv6.Models;
+using SisERPv6.Models.ViewModels;
 using System.Diagnostics;
 
-namespace SisERPv6.Controllers
+namespace SisERPv6.Areas.Inventario.Controllers
 {
+    [Area("Inventario")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
